@@ -81,10 +81,11 @@ python queries.py
 ```
 
 ### 5. Connect Power BI
-- Open Power BI Desktop
-- Get Data → ODBC
-- Connection string: `Driver={SQLite3 ODBC Driver};Database=C:\path\to\hr_data.db`
-- Load the views `salary_by_department` and `absence_by_department`
+- Open the Report: Open the included .pbix file in Power BI Desktop.
+- Fix Data Source: Because the database path is absolute, you may need to click Transform Data > Data Source Settings > Change     Source and select the hr_data.db file in your local folder.
+- Manual Connection (Optional): If starting a new report, use the following ODBC connection string:
+  Driver={SQLite3 ODBC Driver};Database=C:\YOUR_PATH_HERE\hr_data.db
+- Refresh: Hit the Refresh button in the top ribbon to populate the charts.
 
 ---
 
