@@ -12,6 +12,11 @@ This project simulates a real-world HR analytics solution for a mid-sized compan
 - **Which departments have the most absence days?**
 
 ---
+## Dashboard Preview
+
+<img width="739" height="410" alt="HRAnalytics" src="https://github.com/user-attachments/assets/1c228f4a-9e1d-4fb1-82bc-203bd0bed4cb" />
+
+---
 
 ## 🗂️ Project Structure
 
